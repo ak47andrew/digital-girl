@@ -5,3 +5,10 @@ edition = "2024"
 
 [dependencies]
 shared = {path = "../shared"}
+tokio = { version = "1.12", features = ["full"] }
+tokio-stream = "0.1"
+tokio-tungstenite = "0.28.0"
+url = "2"
+anyhow = "1.0"
+futures-util = "0.3"
+rand = "0.9.2"
