@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "server",
+    "app",
+    "terminal",
+    "shared"
+]
+resolver = "3"
